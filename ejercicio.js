@@ -15,3 +15,14 @@ function aggProducto (Nombre, Precio, Categoria){
 
 }
 aggProducto ("Papas fritas", 15000, "Alimentos")
+
+
+aggProducto ("Papas fritas", 15000, "Alimentos")
+
+function listarProductos (){
+    console.log("Lista de productos:")
+    productos.forEach(lista=>{
+        console.log(`${lista.idProducto} / ${lista.Nombre} / ${lista.Precio} / ${lista.Categoria}`)
+    } )
+}
+listarProductos()
